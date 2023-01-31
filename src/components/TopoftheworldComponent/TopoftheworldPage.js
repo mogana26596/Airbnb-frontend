@@ -22,7 +22,7 @@ return (
         navSize={40}
       />
       <div className="card-body">
-      <a style={{fontSize:"20px",marginLeft:"15px"}}href={row.link} target="_blank"><b>{row.Name}</b></a><br />
+      <a style={{fontSize:"20px",marginLeft:"15px"}}href={row.link} target="_blank" rel="noreferrer" ><b>{row.Name}</b></a><br />
         <p style={{marginLeft:"15px"}} className="text-muted">{row.elevation}</p>
         <p style={{marginLeft:"15px"}} className="text-muted">{row.available}</p>
         <p style={{marginLeft:"15px"}}><b>{row.amount}</b></p>

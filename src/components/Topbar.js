@@ -9,19 +9,16 @@ const Newbutton = async () => {
 const Topoftheworldbutton = async () => {
  navigate('/topoftheworld');
 };
-const Trendingbutton = async () => {
- navigate('/trending');
-};
 const Adaptedbutton = async () => {
  navigate('/adapted');
 };
 const Playbutton = async () => {
  navigate('/play');
 };
-// const Logoutbutton = async () => {
-//  await localStorage.removeItem("token");
-//  navigate('/')
-// };
+const logout = async () => {
+ await localStorage.removeItem("token");
+ navigate('/')
+};
 
 return (
 <>
@@ -35,7 +32,7 @@ return (
       <button style={{fontSize:"16px"}} type="button" className="btn btn-danger" onClick={Topoftheworldbutton}><i className="fa fa-area-chart" aria-hidden="true"></i><br/>Top of the world</button>
       <button style={{fontSize:"16px"}} type="button" className="btn btn-danger" onClick={Adaptedbutton}><i className="fa fa-wheelchair-alt" aria-hidden="true"></i><br/>Adapted</button>
       <button style={{fontSize:"16px"}} type="button" className="btn btn-danger" onClick={Playbutton}><i className="fa fa-cubes" aria-hidden="true"></i><br/>Play</button>
-      <button type="button" className="btn btn-primary" >Logout</button>
+      <button type="button" className="btn btn-primary" onClick={logout}>Logout</button>
     </div>
   </nav>
 </>
