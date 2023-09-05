@@ -26,35 +26,31 @@ function LoginPage() {
        navigate('/signup');
     };
 return(
-  <body>
-        <div className="card mb-3" style={{maxWidth: "800px", margin:"100px auto",border:"20px solid rgb(252, 89, 89)"}}>
-                <div className="row no-gutters" style={{margin:"30px"}}>
-                    <div className="col-md-6" style={{marginTop:"80px"}}>
-                       <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2014/07/Symbol.jpg?auto=format&q=60&fit=max&w=930" className="card-img" alt="card-img"/>
-                    </div>
-                   <div className="col-md-6">
-                      <div className="card-body">
-                        <h2 className="card-title" style={{textAlign: "center"}}>Welcome to Airbnb</h2>
-                        <form onSubmit={handleSubmit}>
-                          <div className="mb-4"style={{marginTop:"20px", textAlign: "center"}}>
-
-                            <label for="email" className="email mb-3"><b>Email</b></label><br/>
-                            <input type="email" className="email mb-3" placeholder="name@example.com" 
-                                  value={formData.email} onChange={(e) => setFormData({...formData, email:e.target.value})}/><br/>
-
-                            <label for="password" className="password mb-3"><b>Password</b></label><br/>
-                            <input type="password" className="password mb-3" placeholder="Password" 
-                                  value={formData.password} onChange={(e) => setFormData({...formData, password:e.target.value})}/><br/>
-
-                            <button  type="Login" className="btn btn-primary mb-3" style={{marginLeft:"20px"}} >Login</button><br/>
-                          </div>
-                      </form>  
-                        <div style={{textAlign: "center"}}>Don’t have an account?<button type="button" class="btn btn-link" onClick={handleSignup}>Sign up</button></div> 
+    <body>
+          <div className="card text-white bg-danger" style={{maxWidth: "600px", margin:"100px auto",textAlign: "center",padding:"25px"}}><b><h1>Welcome to Airbnb !</h1></b>
+                  <div className="row no-gutters" >
+                      <div className="col-md-6" >
+                         <img src="https://www.missafir.com/wp-content/uploads/2018/12/airbnb-yasal-mi-1.jpg" className="card-img" alt="card-img" style={{height:"280px", margin:"20px 10px"}}/>
                       </div>
-                   </div>
-                </div>
-        </div>
-  </body>   
+                     <div className="col-md-6">
+                        <div className="card-body">
+                          <form onSubmit={handleSubmit}>
+                              <label for="email" className="email mb-3"><b>Email</b></label><br/>
+                              <input type="email" className="email mb-3" placeholder="name@example.com" 
+                                  value={formData.email} onChange={(e) => setFormData({...formData, email:e.target.value})}  /><br/>
+  
+                              <label for="password" className="password mb-3"><b>Password</b></label><br/>
+                              <input type="password" className="password mb-3" placeholder="Password" 
+                                 value={formData.password} onChange={(e) => setFormData({...formData, password:e.target.value})}   /><br/>
+  
+                              <button  type="Login" className="btn btn-primary mb-3" style={{marginLeft:"20px"}} >Login</button><br/>
+                          </form>  
+                          <div style={{textAlign: "center"}}>Don’t have an account?<button type="button" class="btn btn-link" onClick={handleSignup}>Sign up</button></div> 
+                        </div>
+                     </div>
+                  </div>
+          </div>
+    </body>   
 );
 }
 export default LoginPage;

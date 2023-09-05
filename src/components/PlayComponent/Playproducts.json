@@ -18,7 +18,7 @@
     "link":"/playpage1",
     "update": "Climbing wall",
     "available": "14–19 Dec",
-    "amount": "₹3,464 night"
+    "amount": "₹3,036 night"
   },
   {
     "id": "2",
@@ -40,7 +40,7 @@
 "link":"/playpage2",
 "update": "Bowling alley",
 "available": "1–6 Jan",
-"amount": "₹57,231 night"
+"amount": "₹49,342 night"
   },
   {
     "id": "3",
@@ -65,7 +65,7 @@
 "link":"/playpage3",
 "update": "Theme room and more",
 "available": "13–18 Dec",
-"amount": "₹83,121 night"
+"amount": "₹71,628 night"
 },
   {
     "id": "4",
@@ -90,7 +90,7 @@
     "link":"/playpage4",
     "update": "Miniature golf and more",
     "available": "7–13 Jan",
-    "amount": "₹1,43,266 night"
+    "amount": "₹1,23,733 night"
   },
   {
     "id": "5",
@@ -108,7 +108,7 @@
     "link":"/playpage5",
     "update": "Bowling alley",
     "available": "2–7 Jan",
-    "amount": "₹56,316 night"
+    "amount": "₹49,015 night"
   },
    {
     "id": "6",
@@ -133,6 +133,6 @@
     "link":"/playpage6",
     "update": "Life-size games and more",
     "available": "4–9 Sep",
-    "amount": "₹1,73,455 night"
+    "amount": "₹1,50,201 night"
   }
 ]

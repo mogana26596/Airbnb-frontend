@@ -20,7 +20,7 @@
     "link":"/toppage1",
     "elevation":"3,351 m elevation",
     "available": "6–11 Dec",
-    "amount": "₹41,317 night"
+    "amount": "₹26,991 night"
   },
  
   {
@@ -37,7 +37,7 @@
 "link":"/toppage2",
 "elevation":"3,154 m elevation",
 "available": "1–6 Dec",
-"amount": "₹7,363  night"
+"amount": "₹6,454  night"
   },
   {
     "id": "3",
@@ -81,7 +81,7 @@
     "link":"/toppage4",
     "elevation":"3,166 m elevation",
     "available": "10–16 Mar",
-    "amount": "₹1,217 night"
+    "amount": "₹1,066 night"
   },
   {
     "id": "5",
@@ -107,7 +107,7 @@
     "link":"/toppage5",
     "elevation":"3,479 m elevation",
     "available": "9–14 Dec",
-    "amount": "₹18,516 night"
+    "amount": "₹15,463 night"
   },
    {
     "id": "6",
@@ -126,7 +126,7 @@
     "link":"/toppage6",
     "elevation":"3,054 m elevation",
     "available": "7–14 Dec",
-    "amount": "₹4,670  night"
+    "amount": "₹4,092  night"
   }
 ]
 

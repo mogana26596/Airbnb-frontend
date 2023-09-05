@@ -11,14 +11,14 @@ function SignupPage() {
       }
 return(
   <body>
-        <div className="card mb-3" style={{maxWidth: "800px", margin:"100px auto",border:"20px solid rgb(252, 89, 89)"}}>
-                <div className="row no-gutters" style={{margin:"30px"}}>
-                    <div className="col-md-6" style={{marginTop:"170px"}}>
-                       <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2014/07/Symbol.jpg?auto=format&q=60&fit=max&w=930" className="card-img" alt="card-img"/>
+        <div className="card text-white bg-danger" style={{maxWidth: "800px", margin:"100px auto"}}>
+                <div className="row no-gutters">
+                    <div className="col-md-6">
+                       <img src="https://www.missafir.com/wp-content/uploads/2018/12/airbnb-yasal-mi-1.jpg" className="card-img" alt="card-img" style={{height:"350px", margin:"120px 25px"}}/>
                     </div>
                    <div className="col-md-6">
                       <div className="card-body">
-                        <h2 className="card-title" style={{textAlign: "center"}}>Welcome to Airbnb</h2>
+                        <h2 className="card-title" style={{textAlign: "center"}}>Welcome to Airbnb !</h2>
                         <form onSubmit={handleSubmit}>
                           <div className="mb-4"style={{marginTop:"20px", textAlign: "center"}}>
 
