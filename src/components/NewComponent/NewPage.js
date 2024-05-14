@@ -8,14 +8,14 @@ function NewPage() {
 return (
 <>
  <Topbar/>
-   <div style={{margin:"30px"}} className="row row-cols-1 row-cols-md-3 g-3" >
+   <div style={{margin:"50px"}} className="row row-cols-1 row-cols-3 g-3" >
    {products.map((row) => (
     <div style={{marginBottom:"30px"}} key={row.id}>
     <div className="col">
-    <div className="card h-70">
+    <div className="card h-50">
       <SimpleImageSlider
-        width={400}
-        height={300}
+        width={550}
+        height={400}
         images={row.images}
         showBullets={true}
         showNavs={true}

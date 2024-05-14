@@ -27,7 +27,7 @@ function LoginPage() {
     };
 return(
     <body>
-          <div className="card text-white bg-danger" style={{maxWidth: "600px", margin:"100px auto",textAlign: "center",padding:"25px"}}><b><h1>Welcome to Airbnb !</h1></b>
+          <div className="card text-white bg-danger" style={{maxWidth: "600px", margin:"250px auto",textAlign: "center",padding:"25px"}}><b><h1>Welcome to Airbnb !</h1></b>
                   <div className="row no-gutters" >
                       <div className="col-md-6" >
                          <img src="https://www.missafir.com/wp-content/uploads/2018/12/airbnb-yasal-mi-1.jpg" className="card-img" alt="card-img" style={{height:"280px", margin:"20px 10px"}}/>
